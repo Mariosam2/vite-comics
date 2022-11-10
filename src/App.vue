@@ -1,7 +1,6 @@
 <script>
 import SiteHeader from './components/SiteHeader.vue';
 import SiteMain from './components/SiteMain.vue';
-import IconSection from './components/IconSection.vue';
 import SiteFooter from './components/SiteFooter.vue';
 
 export default {
@@ -9,7 +8,6 @@ export default {
   components: {
     SiteHeader,
     SiteMain,
-    IconSection,
     SiteFooter,
   }
 }
@@ -17,4 +15,5 @@ export default {
 
 <template>
   <site-header></site-header>
+  <site-main></site-main>
 </template>

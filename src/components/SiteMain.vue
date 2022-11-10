@@ -1,9 +1,22 @@
 <script>
+import IconsComp from './IconsComp.vue';
 export default {
     name: 'SiteMain',
+    components: {
+        IconsComp,
+    }
 }
 </script>
 <template>
-    <main id="site_main"></main>
+    <main id="site_main">
+        <div class="container">
+            <div class="row">
+                <div class="col p-5">
+                    <h2 class="text-white"> &#8594; Content goes here &#8592; </h2>
+                </div>
+            </div>
+        </div>
+        <icons-comp></icons-comp>
+    </main>
     <!-- /#site_main -->
 </template>

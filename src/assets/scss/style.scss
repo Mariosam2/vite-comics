@@ -23,3 +23,18 @@ a {
     display: inline-block;
     padding: 1rem;
 }
+
+/* #region main */
+main {
+    background-color: $dark;
+
+    .ms_icons {
+        background-color: $primary-color;
+
+        img {
+            max-width: 50px;
+        }
+    }
+}
+
+/* #endregion main */
