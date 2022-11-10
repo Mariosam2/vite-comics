@@ -5,11 +5,8 @@
     width: 80px;
 }
 
-.ms_nav {
-    margin-left: auto;
 
-    .ms_nav-item {
-        color: $secondary-color;
-        font-weight: 500;
-    }
+.ms_nav-item {
+    color: $secondary-color;
+    font-weight: 500;
 }
