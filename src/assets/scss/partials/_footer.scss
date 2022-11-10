@@ -1,0 +1,73 @@
+@use './variables' as *;
+
+footer {
+    .footer-top {
+        background-image: url(../img/footer-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        .dc-logo {
+            background-image: url(../img/dc-logo-bg.png);
+            background-size: 80%;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .item {
+            height: fit-content;
+
+            .f-title {
+                color: $light;
+            }
+
+            .sub-el {
+                color: $lightgrey
+            }
+
+        }
+
+
+    }
+
+    .footer-bottom {
+        background-color: $secondary-color;
+
+        .btn.ms_btn {
+            padding: 0.5rem;
+            border: 2px solid $primary-color;
+            color: $light;
+            font-weight: bold;
+            transition: background-color 0.2s ease;
+
+            &:hover {
+                background-color: $dark;
+            }
+        }
+
+        .socials {
+
+            h5 {
+
+                color: $primary-color;
+                font-weight: bold;
+
+
+            }
+
+            img {
+
+                max-width: 40px;
+                object-fit: contain;
+
+            }
+
+            h5,
+            img {
+                display: inline;
+                vertical-align: middle;
+            }
+        }
+    }
+
+
+}

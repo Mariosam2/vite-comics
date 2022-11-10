@@ -1,0 +1,16 @@
+@use './variables' as *;
+
+main {
+    .content {
+        background-color: $dark;
+    }
+
+    .ms_icons {
+        background-color: $primary-color;
+
+        img {
+            max-width: 50px;
+            max-height: 60px;
+        }
+    }
+}

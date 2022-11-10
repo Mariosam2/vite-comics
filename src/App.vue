@@ -16,4 +16,5 @@ export default {
 <template>
   <site-header></site-header>
   <site-main></site-main>
+  <site-footer></site-footer>
 </template>

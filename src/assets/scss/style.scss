@@ -1,6 +1,7 @@
-@use './partials/variables' as *;
 @use '../../../node_modules/bootstrap/scss/bootstrap.scss';
 @use './partials/header';
+@use './partials/main';
+@use './partials/footer';
 
 * {
     box-sizing: border-box;
@@ -18,23 +19,8 @@ img {
 a {
     text-decoration: none;
     display: inline-block;
-    padding: 1rem;
 }
 
-/* #region main */
-main {
-    .content {
-        background-color: $dark;
-    }
-
-    .ms_icons {
-        background-color: $primary-color;
-
-        img {
-            max-width: 50px;
-            max-height: 60px;
-        }
-    }
+ul {
+    list-style: none;
 }
-
-/* #endregion main */
