@@ -6,7 +6,15 @@
 }
 
 
-.ms_nav-item {
+.navbar-expand-lg .navbar-nav .nav-link.ms_nav-item {
     color: $secondary-color;
-    font-weight: 500;
+    font-weight: bolder;
+    font-size: 0.8rem;
+    padding: 2.5rem 1rem;
+    border-bottom: 5px solid transparent;
+
+    &:hover {
+        color: $primary-color;
+        border-bottom: 5px solid $primary-color;
+    }
 }

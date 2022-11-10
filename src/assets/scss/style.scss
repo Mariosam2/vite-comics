@@ -23,7 +23,9 @@ a {
 
 /* #region main */
 main {
-    background-color: $dark;
+    .content {
+        background-color: $dark;
+    }
 
     .ms_icons {
         background-color: $primary-color;

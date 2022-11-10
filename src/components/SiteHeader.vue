@@ -32,6 +32,18 @@ export default {
                     link: '#',
                     text: 'videos',
                 },
+                {
+                    link: '#',
+                    text: 'fans',
+                },
+                {
+                    link: '#',
+                    text: 'news',
+                },
+                {
+                    link: '#',
+                    text: 'shop',
+                },
 
             ]
         }
@@ -40,7 +52,7 @@ export default {
 </script>
 <template>
     <header id="site_header">
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg py-0">
             <div class="container">
                 <a class="navbar-brand p-0" href="#"><img id="logo" src="../assets/img/dc-logo.png" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
