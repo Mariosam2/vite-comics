@@ -44,7 +44,7 @@ export default {
     <section class="ms_icons">
         <div class="container ">
             <div class="row p-4">
-                <div class="col-12 d-flex">
+                <div class="col-12 d-flex flex-wrap">
                     <div class="ms_icon d-flex align-items-center flex-grow-1 py-4" v-for="icon in icons">
                         <img :src="getImageUrl(icon.img)" :alt="icon.desc">
                         <a :href="icon.link" class="ms_description text-uppercase p-3 text-white">{{ icon.desc }}</a>

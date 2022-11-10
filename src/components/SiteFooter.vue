@@ -185,7 +185,7 @@ export default {
         <div class="footer-top">
             <div class="container">
                 <div class="row">
-                    <div class="col-5 d-flex flex-wrap justify-content-between py-5">
+                    <div class="col-12 col-lg-5 d-flex flex-wrap justify-content-between py-5">
                         <div class="item" v-for="item in items">
                             <ul class="p-0 py-2 mb-0" v-for="list in item.lists">
                                 <li class="f-title">
@@ -197,7 +197,7 @@ export default {
                         </div>
 
                     </div>
-                    <div class="col-7 dc-logo"></div>
+                    <div class="col-7 d-none d-lg-block dc-logo"></div>
                 </div>
             </div>
 
@@ -205,10 +205,10 @@ export default {
         <div class="footer-bottom py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-between">
-                        <a href="" class="btn ms_btn rounded-0 text-uppercase">Sign up Now!</a>
+                    <div class="col-12 d-flex justify-content-between flex-wrap">
+                        <a href="" class="btn ms_btn rounded-0 text-uppercase mb-3">Sign up Now!</a>
                         <div class="socials">
-                            <h5 class="mx-4 text-uppercase">Follow Us</h5>
+                            <h5 class="me-4 text-uppercase">Follow Us</h5>
                             <a :href="social.link" v-for="social in socials" class="px-2"><img
                                     :src="getImageUrl(social.img)" alt="" /></a>
 
