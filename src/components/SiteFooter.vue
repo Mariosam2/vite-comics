@@ -205,8 +205,8 @@ export default {
         <div class="footer-bottom py-5">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 d-flex justify-content-between flex-wrap">
-                        <a href="" class="btn ms_btn rounded-0 text-uppercase mb-3">Sign up Now!</a>
+                    <div class="col-12 d-flex justify-content-between align-items-center flex-wrap">
+                        <a href="" class="btn ms_btn rounded-0 text-uppercase mb-3 mb-lg-0">Sign up Now!</a>
                         <div class="socials">
                             <h5 class="me-4 text-uppercase">Follow Us</h5>
                             <a :href="social.link" v-for="social in socials" class="px-2"><img
