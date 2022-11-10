@@ -3,4 +3,7 @@ export default {
     name: 'SiteMain',
 }
 </script>
-<template></template>
+<template>
+    <main id="site_main"></main>
+    <!-- /#site_main -->
+</template>
