@@ -191,7 +191,7 @@ export default {
                                 <li class="f-title">
                                     <h4 class="text-uppercase">{{ list.title }}</h4>
                                 </li>
-                                <li v-for="subEl in list.subElements"><a href="subEl.link" class="sub-el">{{ subEl.text
+                                <li v-for="subEl in list.subElements"><a :href="subEl.link" class="sub-el">{{ subEl.text
                                 }}</a></li>
                             </ul>
                         </div>
