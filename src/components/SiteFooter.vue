@@ -191,7 +191,7 @@ export default {
                 <div class="row">
                     <div class="col-12 col-lg-5 d-flex flex-wrap justify-content-between py-5">
                         <div class="item" v-for="item in items">
-                            <footer-list v-for="list in item.lists" :list="list" :title="list.title"></footer-list>
+                            <footer-list v-for="list in item.lists" :list="list"></footer-list>
                         </div>
 
                     </div>

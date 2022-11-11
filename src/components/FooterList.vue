@@ -3,7 +3,6 @@ export default {
     name: 'FooterList',
     props: {
         list: Object,
-        title: String,
     }
 }
 </script>
