@@ -21,7 +21,7 @@ export default {
         </jumbotron>
         <section class="content">
             <div class="container">
-                <div class="row row-cols-1 row-cols-md-3 row-cols-xl-6 g-3">
+                <div class="row row-cols-1 row-cols-sm-3 row-cols-xl-6 g-3">
                     <comic-item v-for="comic in comics" :img="comic.thumb" :title="comic.series">
                     </comic-item>
                 </div>

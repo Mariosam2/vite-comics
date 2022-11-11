@@ -12,6 +12,7 @@ main {
         .callToAction {
             a {
                 width: 15%;
+                min-width: 200px;
                 transition: all 0.2s ease;
             }
         }
