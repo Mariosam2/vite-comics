@@ -1,6 +1,10 @@
 <script>
+import FooterList from './FooterList.vue';
 export default {
     name: 'SiteFooter',
+    components: {
+        FooterList,
+    },
     data() {
         return {
             items: [
@@ -187,13 +191,7 @@ export default {
                 <div class="row">
                     <div class="col-12 col-lg-5 d-flex flex-wrap justify-content-between py-5">
                         <div class="item" v-for="item in items">
-                            <ul class="p-0 py-2 mb-0" v-for="list in item.lists">
-                                <li class="f-title">
-                                    <h4 class="text-uppercase">{{ list.title }}</h4>
-                                </li>
-                                <li v-for="subEl in list.subElements"><a :href="subEl.link" class="sub-el">{{ subEl.text
-                                }}</a></li>
-                            </ul>
+                            <footer-list v-for="list in item.lists" :list="list" :title="list.title"></footer-list>
                         </div>
 
                     </div>

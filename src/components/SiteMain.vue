@@ -1,7 +1,7 @@
 <script>
 import IconsComp from './IconsComp.vue';
 import Jumbotron from './Jumbotron.vue';
-import Comic from './Comic.vue';
+import Comic from './ComicItem.vue';
 import data from '../assets/data/data.js';
 export default {
     name: 'SiteMain',
