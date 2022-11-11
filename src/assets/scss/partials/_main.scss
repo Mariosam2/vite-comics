@@ -1,8 +1,20 @@
 @use './variables' as *;
 
 main {
+    a {
+        transition: filter 0.2s ease;
+    }
+
     .content {
         background-color: $dark;
+        padding: 3rem;
+
+        .callToAction {
+            a {
+                width: 15%;
+                transition: all 0.2s ease;
+            }
+        }
     }
 
     .ms_icons {
